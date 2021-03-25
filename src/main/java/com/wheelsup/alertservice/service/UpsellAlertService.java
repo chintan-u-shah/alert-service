@@ -78,6 +78,7 @@ public class UpsellAlertService {
             fileGeneratorRequest.setData(userData);
             return fileGeneratorRequest;
         }
+        return null;
     }
 
     @NotNull
