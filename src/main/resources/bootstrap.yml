@@ -1,0 +1,30 @@
+server:
+  port: 8877
+
+spring:
+  application:
+    name: alert-service
+  profiles:
+    active: local
+  cloud:
+    config:
+      uri: ${SPRING_CONFIG_URI:http://localhost:8888}
+      label: master
+      fail-fast: false
+      name: actuator,eureka_client,feign_client,security,mongodb,database
+
+info:
+  component: ${spring.application.name}
+
+swagger:
+  app:
+    title: ${spring.application.name}
+    description: Rest Endpoints for ${spring.application.name} service
+    version: 1.0
+logging:
+  level:
+    com:
+      wheelsup:
+        alertservice:
+          external:
+            api: debug
