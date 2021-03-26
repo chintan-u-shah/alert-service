@@ -4,7 +4,7 @@
 
   <groupId>com.wheelsup.services</groupId>
   <artifactId>alert-service</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
   <name>WheelsUp AlertService</name>
