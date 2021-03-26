@@ -1,5 +1,5 @@
 server:
-  port: 8877
+  port: 0
 
 spring:
   application:
@@ -21,10 +21,3 @@ swagger:
     title: ${spring.application.name}
     description: Rest Endpoints for ${spring.application.name} service
     version: 1.0
-logging:
-  level:
-    com:
-      wheelsup:
-        alertservice:
-          external:
-            api: debug
