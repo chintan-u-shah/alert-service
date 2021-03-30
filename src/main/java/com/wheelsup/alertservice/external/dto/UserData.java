@@ -13,5 +13,6 @@ public class UserData {
     private String phoneNumber;
     private String memberType;
     private String subject;
+    private String legalName;
 
 }
