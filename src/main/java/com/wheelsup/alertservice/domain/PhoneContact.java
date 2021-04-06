@@ -14,8 +14,8 @@ public class PhoneContact {
     @Id
     @GeneratedValue
     @Column(name = "phoneContactId")
-    private Integer id;
+    private Long id;
     private String phoneNumber;
-    private Integer memberId;
+    private Long memberId;
 
 }

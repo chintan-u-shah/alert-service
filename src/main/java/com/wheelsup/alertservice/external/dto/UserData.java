@@ -7,12 +7,15 @@ import lombok.Setter;
 @Setter
 public class UserData {
 
-    private Integer userId;
+    private Long userId;
     private String userName;
-    private Integer memberId;
+    private Long memberId;
     private String phoneNumber;
     private String memberType;
     private String subject;
     private String legalName;
+    private String userLocation;
+    private String inquiryType;
+    private String copyrightYear;
 
 }
